@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventPro</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .hero {
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+      .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+      }
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+      }
+      .btn-primary:hover {
+        background-color: #0056b3;
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 50px 20px;
+        background-color: #f8f9fa;
+      }
+      .feature-card {
+        max-width: 300px;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .feature-card i {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: #4facfe;
+      }
+      footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      ul {
+        list-style: none; 
+        display: flex; 
+        justify-content: center;
+        padding: 0; 
+        margin: 0; 
+      }
+
+      ul {
+      list-style: none; 
+      display: flex; 
+      justify-content: center;
+      padding: 0; 
+      margin: 0; 
+    }
+
+    ul li {
+      margin: 0 10px; 
+    }
+
+    ul li svg {
+      width: 30px;
+      height: 30px;
+      fill: #4facfe;
+      transition: fill 0.3s ease;
+    }
+
+    ul li svg:hover {
+      fill: #007bff; 
+    }
+
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Welcome to EventPro</h1>
+      <p>Streamline your event management process with ease!</p>
+      <a href="./learnmore.html" class="btn btn-primary btn-lg">Learn More</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="feature-card">
+        <i class="fas fa-user-shield"></i>
+        <h3>Admin Control</h3>
+        <p>Manage organizers and oversee all events on the platform.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-calendar-check"></i>
+        <h3>Event Management</h3>
+        <p>Create, publish, and monitor events effortlessly.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Analytics</h3>
+        <p>Track event performance with detailed insights.</p>
+      </div>
+    </section>
+
+    
+    <footer>
+      <p>&copy; 2025 EventPro. All rights reserved.</p>
+      <p>
+        <ul>
+          <li>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.36 3.608 1.334.976.976 1.272 2.243 1.334 3.608.058 1.266.069 1.645.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.36 2.633-1.334 3.608-.976.976-2.243 1.272-3.608 1.334-1.266.058-1.645.069-4.85.069s-3.584-.012-4.85-.07c-1.366-.062-2.633-.36-3.608-1.334-.976-.976-1.272-2.243-1.334-3.608-.058-1.266-.069-1.645-.069-4.85s.012-3.584.07-4.85c.062-1.366.36-2.633 1.334-3.608.976-.976 2.243-1.272 3.608-1.334 1.266-.058 1.645-.069 4.85-.069M12 0C8.741 0 8.332.013 7.052.072 5.775.131 4.633.358 3.686.9c-.94.538-1.704 1.302-2.241 2.241-.542.947-.769 2.089-.828 3.366C.013 8.332 0 8.741 0 12s.013 3.668.072 4.948c.059 1.277.286 2.419.828 3.366.538.94 1.302 1.704 2.241 2.241.947.542 2.089.769 3.366.828 1.28.059 1.689.072 4.948.072s3.668-.013 4.948-.072c1.277-.059 2.419-.286 3.366-.828.94-.538 1.704-1.302 2.241-2.241.542-.947.769-2.089.828-3.366.059-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.059-1.277-.286-2.419-.828-3.366-.538-.94-1.302-1.704-2.241-2.241-.947-.542-2.089-.769-3.366-.828C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.999 3.999 0 110-7.998 3.999 3.999 0 010 7.998zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/>
+            </svg>
+          </li>
+          <li>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 72 72" viewBox="0 0 72 72" id="twitter-x">
+              <switch>
+                <g>
+                  <path d="M42.5,31.2L66,6h-6L39.8,27.6L24,6H4l24.6,33.6L4,66
+                  h6l21.3-22.8L48,66h20L42.5,31.2z M12.9,10h8l38.1,52h-8L12.9,10z"></path>
+                </g>
+              </switch>
+            </svg>
+          </li>
+          <li>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M19.615 3.184A2.993 2.993 0 0017.675 3H6.325a2.992 2.992 0 00-1.94.184 3.115 3.115 0 00-1.135.937C2.382 5.368 2.059 7.151 2.01 9.92 1.96 12.69 2.2 14.64 3.25 15.88a3.132 3.132 0 001.135.937 3.003 3.003 0 001.94.184h11.35a3.003 3.003 0 001.94-.184 3.132 3.132 0 001.135-.937c1.05-1.24 1.29-3.19 1.24-5.96-.05-2.769-.372-4.552-1.24-5.799a3.115 3.115 0 00-1.135-.937zM9.75 15.036V8.964l6 3.036-6 3.036z"/>
+            </svg>
+          </li>
+        </ul>
+      </p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
